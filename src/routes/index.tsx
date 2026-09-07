@@ -30,7 +30,7 @@ import {
 } from "lucide-react";
 import { Reviews } from "@/components/Reviews";
 import heroImg from "@/assets/hero-notary.jpg";
-import notaryPortrait from "@/assets/963a8d69-8f87-4265-a355-f61f311fbfb0.JPG";
+import notaryPortrait from "@/assets/.JPG";
 import featherLogo from "@/assets/feather-logo.png";
 export const Route = createFileRoute("/")({
   head: () => ({
