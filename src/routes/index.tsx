@@ -30,8 +30,8 @@ import {
 } from "lucide-react";
 import { Reviews } from "@/components/Reviews";
 import heroImg from "@/assets/hero-notary.jpg";
+import notaryPortrait from "@/assets/963a8d69-8f87-4265-a355-f61f311fbfb0.JPG";
 import featherLogo from "@/assets/feather-logo.png";
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -403,13 +403,11 @@ function Index() {
               className="absolute -left-4 -top-4 hidden h-full w-full rounded-sm lg:block"
               style={{ border: "1px solid var(--gold)", opacity: 0.5 }}
             />
-            <div
-              role="img"
-              aria-label="Fotografía del escribano — pendiente de carga"
-              className="relative grid aspect-[1200/1408] w-full place-items-center rounded-sm bg-secondary/60 shadow-[0_30px_80px_-30px_oklch(0.24_0.05_258_/_0.35)]"
-            >
-              <Landmark className="h-16 w-16 text-navy/25" />
-            </div>
+            <img
+              src="/src/assets/963a8d69-8f87-4265-a355-f61f311fbfb0.JPG"
+              alt="Fotografía del escribano"
+              className="relative w-full rounded-sm object-cover shadow-[0_30px_80px_-30px_oklch(0.24_0.05_258_/_0.35)]"
+          />
           </div>
           <div className="order-1 flex flex-col justify-center lg:order-2" data-reveal="right">
             <div className="mb-5 flex items-center gap-3">
