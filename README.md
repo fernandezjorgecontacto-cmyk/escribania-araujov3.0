@@ -68,3 +68,4 @@ npx wrangler deploy
 - Tailwind CSS
 - Supabase
 - Vite + Nitro
+ 
