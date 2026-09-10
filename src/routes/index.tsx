@@ -404,7 +404,7 @@ function Index() {
               style={{ border: "1px solid var(--gold)", opacity: 0.5 }}
             />
             <img
-              src="/src/assets/fotomalcom.jpg"
+              src={notaryPortrait}
               alt="Fotografía del escribano"
               className="relative w-full rounded-sm object-cover shadow-[0_30px_80px_-30px_oklch(0.24_0.05_258_/_0.35)]"
           />
