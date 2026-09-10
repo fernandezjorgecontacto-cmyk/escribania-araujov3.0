@@ -1,4 +1,4 @@
-import notaryPortrait from "@/assets/fotomalcom.jpg";
+import notaryPortrait from "@/assets/fotomalcom-v2.jpg";
 
 export function About() {
   return (
